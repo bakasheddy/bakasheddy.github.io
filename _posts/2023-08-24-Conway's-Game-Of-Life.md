@@ -13,6 +13,8 @@ tags:
 
 In the realm of cellular automata, few creations are as captivating and thought-provoking as Conway's Game of Life. Proposed by mathematician John Conway in 1970, this simple yet profound simulation has captured the imagination of enthusiasts, mathematicians, and computer scientists alike. At first glance, the Game of Life might seem like a mere grid of cells, but beneath the surface lies a world of intricate patterns, emergent behaviors, and even computational universality. In this blog post, we will delve into the mechanics, patterns, and significance of Conway's Game of Life.
 
+<iframe width="560" height="315" src="https://youtu.be/C2vgICfQawE?si=cf_y1F-1aY4R06dL" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## The Basics
 
 At its core, the Game of Life is a zero-player game. This means that its evolution is determined by its initial state, with no further input required. The game takes place on an infinite two-dimensional grid, where each cell can be in one of two states: alive or dead. The evolution of the grid's state is governed by simple rules:
