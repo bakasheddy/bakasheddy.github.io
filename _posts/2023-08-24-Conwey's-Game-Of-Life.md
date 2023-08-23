@@ -1,7 +1,7 @@
 ---
 title:  Exploring the Intriguing Simplicity of Conway's Game of Life
 layout: post
-post-image: https://raw.githubusercontent.com/thedevslot/WhatATheme/master/assets/images/How%20to%20install%20and%20use%20WhatATheme.png?token=AHMQUEPHRKQFL5FS624RDJ26Z64HK
+post-image: ./assets/images/GOL.JPG
 description: "Dive into the mesmerizing world of cellular automata with our detailed exploration of Conway's Game of Life. From its deceptively simple rules to its intricate patterns, emergent behaviors, and even computational universality, discover how this iconic simulation has captivated minds for decades. Uncover the beauty of complexity arising from simplicity and draw inspiration for your own data analysis and machine learning endeavors. Join us on a journey through the essence of computation, mathematics, and the unexpected."
 tags:
 - how to
