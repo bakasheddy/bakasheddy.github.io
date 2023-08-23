@@ -45,3 +45,5 @@ While the Game of Life might not have direct practical applications in the same 
 ## Conclusion
 
 Conway's Game of Life stands as a testament to the beauty of simplicity and the complexity that can emerge from even the most straightforward rules. Its intricate patterns, emergent behaviors, and computational universality have enthralled generations of enthusiasts and researchers. As data analysts and machine learning practitioners, we can draw inspiration from the Game of Life's ability to generate unexpected outcomes from simple rules, reminding us to approach our work with open minds and a willingness to explore uncharted territories of possibility.
+---
+click [here](https://youtu.be/ouipbDkwHWA?si=GsP_Ph4LUKnsPRU6) to watch more video on conway's game of life
