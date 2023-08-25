@@ -1,7 +1,7 @@
 ---
 title:  Exploring the Intriguing Simplicity of Conway's Game of Life
 layout: post
-post-image: ./assets/images/GOF.JPG
+post-image: ./assets/images/GOF.jpg
 description: "Dive into the mesmerizing world of cellular automata with our detailed exploration of Conway's Game of Life. From its deceptively simple rules to its intricate patterns, emergent behaviors, and even computational universality, discover how this iconic simulation has captivated minds for decades. Uncover the beauty of complexity arising from simplicity and draw inspiration for your own data analysis and machine learning endeavors. Join us on a journey through the essence of computation, mathematics, and the unexpected."
 tags:
 - Game
@@ -13,15 +13,18 @@ tags:
 
 In the realm of cellular automata, few creations are as captivating and thought-provoking as Conway's Game of Life. Proposed by mathematician John Conway in 1970, this simple yet profound simulation has captured the imagination of enthusiasts, mathematicians, and computer scientists alike. At first glance, the Game of Life might seem like a mere grid of cells, but beneath the surface lies a world of intricate patterns, emergent behaviors, and even computational universality. In this blog post, we will delve into the mechanics, patterns, and significance of Conway's Game of Life.
 
-<iframe width="560" height="315" src="https://youtu.be/C2vgICfQawE?si=cf_y1F-1aY4R06dL" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/C2vgICfQawE" frameborder="0" allowfullscreen></iframe>
 
 ## The Basics
 
 At its core, the Game of Life is a zero-player game. This means that its evolution is determined by its initial state, with no further input required. The game takes place on an infinite two-dimensional grid, where each cell can be in one of two states: alive or dead. The evolution of the grid's state is governed by simple rules:
 
 Underpopulation: A live cell with fewer than two live neighbors dies.
+
 Survival: A live cell with two or three live neighbors survives.
+
 Overpopulation: A live cell with more than three live neighbors dies.
+
 Reproduction: A dead cell with exactly three live neighbors becomes alive.
 Patterns and Behaviors
 
