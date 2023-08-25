@@ -9,8 +9,6 @@ tags:
 - Life
 ---
 
-## Introduction
-
 In the realm of cellular automata, few creations are as captivating and thought-provoking as Conway's Game of Life. Proposed by mathematician John Conway in 1970, this simple yet profound simulation has captured the imagination of enthusiasts, mathematicians, and computer scientists alike. At first glance, the Game of Life might seem like a mere grid of cells, but beneath the surface lies a world of intricate patterns, emergent behaviors, and even computational universality. In this blog post, we will delve into the mechanics, patterns, and significance of Conway's Game of Life.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/C2vgICfQawE" frameborder="0" allowfullscreen></iframe>
