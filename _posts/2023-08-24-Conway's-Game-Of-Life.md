@@ -1,7 +1,7 @@
 ---
 title:  Exploring the Intriguing Simplicity of Conway's Game of Life
 layout: post
-post-image : "https://github.com/bakasheddy/bakasheddy.github.io/blob/main/assets/images/GOL.jpg"
+post-image : "../assets/images/GOL.jpg"
 description: "Dive into the mesmerizing world of cellular automata with our detailed exploration of Conway's Game of Life. From its deceptively simple rules to its intricate patterns, emergent behaviors, and even computational universality, discover how this iconic simulation has captivated minds for decades. Uncover the beauty of complexity arising from simplicity and draw inspiration for your own data analysis and machine learning endeavors. Join us on a journey through the essence of computation, mathematics, and the unexpected."
 tags:
 - Game
