@@ -43,6 +43,7 @@ While the Game of Life might not have direct practical applications in the same 
 
 ---
 
+
 ## Conclusion
 
 
