@@ -90,12 +90,14 @@ The primary goal of this project is to create a robust hate speech detection sys
 
 <li> Meticulous data augmentation was conducted, leveraging the deep-translator library for back translation, ensuring a diverse and comprehensive dataset.</li>
   
-<h5>Model Architecture</h5>
+<h3>Model Architecture</h3>
 
 <li> Utilization of BERT (Bidirectional Encoder Representations from Transformers) attention mechanisms and a context analyzer to capture intricate contextual relationships within textual data.</li>
 <li>The hate speech detection model comprises two layers with a frozen BERT layer, trained for 20 epochs using the Adam optimizer and softmax for multi-labeled class classification.</li>
-
-<h5>Performance Metrics</h5> 
+<p></p> 
+<img src="../assets/images/arch.PNG" class="img-responsive" alt="">
+            
+<h3>Performance Metrics</h3> 
 
 <li>Total accuracy of 0.99 on the 20th epoch.</li>
 <li>Evaluation metrics: Macro Precision of 0.79875, Macro Recall of 0.71587, and Macro F1-score of 0.74825, demonstrating promising performance.</li>
@@ -106,7 +108,7 @@ The primary goal of this project is to create a robust hate speech detection sys
 <li>It identifies explicit hate speech and detects subtle nuances and underlying meanings, providing a holistic understanding of harmful content.</li>
 <li>Integration of a context analyzer refines predictive capabilities, distinguishing genuine expressions from potentially harmful language.</li>
 
-<h4>How to Use</h4>
+<h3>How to Use</h3>
 
 <li> The codebase includes instructions for data preprocessing, model training, and evaluation.</li>
 <li> Detailed explanations and comments are provided throughout the code for ease of understanding and replicability.</li>
