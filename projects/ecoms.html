@@ -78,11 +78,25 @@
             <p>
             <p>This project involves the development of a comprehensive recommendation system for an e-commerce platform, integrating natural language processing, vector similarity search, and computer vision. FastText was utilized to embed product descriptions into vector representations, which were then indexed in Pinecone, a scalable and efficient vector database. Additionally, a CNN model was implemented to detect and classify products based on images, enhancing the recommendation capabilities. The system allows for querying these vectors with natural language inputs and image inputs, efficiently returning top similar products. This dual approach significantly improves the user experience by providing highly relevant product suggestions based on both text descriptions and visual content. The project demonstrates expertise in machine learning, NLP, computer vision, and scalable vector search technologies, showcasing the ability to create sophisticated and effective recommendation systems.</p>
             <blockquote>
-              <p>Key Insights</p>
+              <p>System Architecture</p>
             </blockquote>
-            <p>- FordGo or Bay Wheels differentiate between two user groups; "Subscribers" who are members of an annual
-              or a monthly plan, and "Customers" who pay for each single trip. During the investigation period, 80.7% of
-              users were "Subscribers", while 19.3% were "Customers".</p>
+            <p>The integrates natural language processing (NLP) and computer vision to provide relevant product suggestions based on text descriptions and images.</p>
+             <p></p> 
+            <img src="../assets/images/ecoms.gif" class="img-responsive" alt="">
+            <h3>System Components</h3>
+            <li> User Interface (WebApp): Allows users to enter product descriptions or upload images and displays the top 3 recommended products.</li>
+            <li>NLP Module: Processes product descriptions by embedding them into vector representations using FastText and querying Pinecone for similar products.</li>
+            <li>CNN Module: Processes product images by extracting features using a pre-trained CNN model, converting them into vectors, and querying Pinecone.</li>
+            <li>Pinecone Database: Stores vector representations of products and allows efficient similarity queries.</li>
+           <h3>Workflow</h3>
+            <ol>
+              <li>User Input: The user provides a product description or image through the web application.</li>
+              <li>Text Processing: The WebApp sends the description to the NLP Module, which uses FastText to embed the description into a vector and queries Pinecone.</li>
+              <li>Image Processing: If an image is provided, the WebApp sends it to the CNN Module, which uses the CNN model to create a vector representation and queries Pinecone.</li>
+              <li>Query and Retrieve: Pinecone retrieves the top 3 similar product vectors and returns them to the respective module.</li>
+              <li>Display Results: The NLP or CNN Module sends the top 3 product recommendations back to the WebApp, which then displays them to the user.</li>
+            </ol>
+          
 
             <p>- A question of interest for this analysis is to know when when most trips taken in terms of time of day
               or month of the year, From investigating the dataset
