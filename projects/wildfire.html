@@ -1,0 +1,166 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <meta content="width=device-width,initial-scale=1" name="viewport">
+  <meta content="description" name="description">
+  <meta name="google" content="notranslate" />
+  <meta content="Mashup templates have been developped by Orson.io team" name="author">
+
+  <!-- Disable tap highlight on IE -->
+  <meta name="msapplication-tap-highlight" content="no">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="../assets/apple-icon-180x180.png">
+  <link href="../assets/favicon.ico" rel="icon">
+
+  <title>Title page</title>
+
+  <link href="../main.3f6952e4.css" rel="stylesheet">
+</head>
+
+<body class="">
+  <div id="site-border-left"></div>
+  <div id="site-border-right"></div>
+  <div id="site-border-top"></div>
+  <div id="site-border-bottom"></div>
+  <!-- Add your content of header -->
+  <header>
+    <nav class="navbar  navbar-fixed-top navbar-default">
+      <div class="container">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse"
+          aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbar-collapse">
+          <ul class="nav navbar-nav ">
+            <li><a href="../index.html" title="">01 : Home</a></li>
+            <li><a href="../project.html" title="">02 : projects</a></li>
+            <li><a href="../about.html" title="">03 : About me</a></li>
+            <li><a href="../contact.html" title="">04 : Contact</a></li>
+            <li><a href="../blog.html" title="">05 : blog</a></li>
+          </ul>
+
+
+          <ul class="nav navbar-nav navbar-right navbar-small visible-md visible-lg">
+            <li><a href="./wildfire.html" title="" class="active">001</a></li>
+            <li><a href="./ecoms.html" title="">002</a></li>
+            <li><a href="./hatespeech.html" title="">003</a></li>
+            <li><a href="./tennis.html" title="">004</a></li>
+            <li><a href="./electricity.html" title="">005</a></li>
+            <li><a href="./fordgo.html" title="">006</a></li>
+          </ul>
+
+
+        </div>
+      </div>
+    </nav>
+  </header>
+  <div class="section-container">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <img src="../assets/images/1_-B4mWa1g3q88-rhmdb3cHw.jpg" class="img-responsive" alt="">
+          <div class="card-container">
+            <div class="text-center">
+              <h1 class="h2">001 : California-satellite-imaging-wildfire-detection</h1>
+            </div>
+            <p>This project builds an integrated ML system for wildfire detection, analysis, and forecasting using satellite imagery. It includes a CNN for fire classification, a U-Net for segmentation, and a Prophet model for time-series forecasting.</p>
+
+            <blockquote>
+              <p>About Project</p>
+            </blockquote>
+            <p>
+            <p>An end-to-end machine learning pipeline for detecting wildfires in satellite imagery, mapping fire boundaries, and predicting future fire risks. Built to support emergency response teams with real-time insights.</p>
+            <blockquote>
+              <p>System Layout</p>
+            </blockquote>
+            <p>This project adopts a three-tiered architecture to address California’s wildfire challenges systematically: (1) Data Preprocessing, where FIRMS satellite imagery is standardized (512×512 for segmentation, 224×224 for classification) and CAL FIRE historical data is temporally aligned and zero-padded; (2) Model Development, integrating a MobileNetV2-based classifier (for fire/no-fire detection), a U-Net segmentation model (for pixel-level fire mapping), and a Prophet time-series forecaster (for fire count/acre prediction); and (3) Validation, where models are evaluated using spatially stratified splits (train: 1950–2015, test: 2016–2023) and real-world metrics (IoU, MAE, F1-score). The workflow emphasizes modularity, with preprocessing pipelines (multi-color space thresholding, morphological refinement) feeding into interconnected AI components, enabling end-to-end fire detection, boundary mapping, and risk forecasting tailored to California’s diverse ecosystems.</p>
+             <p></p> 
+            <img src="../assets/images/wf.jpeg" class="img-responsive" alt="">
+            <h3>About Data</h3>
+            <h5>Image Data</h5>
+            <p>The Fire Information for Resource Management System (FIRMS) is a web-based mapping platform provided by NASA's Earth Science Data Systems (ESDS) Program. FIRMS offers near real-time active fire detection using satellite observations from the Moderate Resolution Imaging Spectroradiometer (MODIS) and the Visible Infrared Imaging Radiometer Suite (VIIRS). These sensors, onboard NASA's Terra, Aqua, and Suomi NPP satellites, detect thermal anomalies associated with active wildfires. FIRMS delivers global fire location updates approximately every three hours, aiding wildfire detection, response efforts, and resource management. The system is widely used by researchers, emergency responders, and environmental agencies to assess wildfire activity, track fire progression, and mitigate disaster impacts.</p>
+            <p>For this project, FIRMS data was specifically focused on the California region, with satellite imagery collected daily from January 1, 2024, to February 15, 2025. Each day's satellite image was saved as a PNG file, with images categorized into two distinct classes:</p>
+            <li>"Fire": Maps showing active fire hotspots detected by FIRMS.</li>
+            <li>"No Fire": Maps from days where no active fire was recorded.</li>
+            <p>The collected images were stored locally and used to train two key models:</p>
+            <li>Classification Model: This model predicts whether a given satellite image contains active wildfire hotspots or not.</li>
+            <li>Segmentation Model: This model performs pixel-wise fire detection, segmenting regions in satellite images that correspond to wildfire occurrences.</li>
+            <p>By leveraging FIRMS data and deep learning techniques, this study aims to enhance wildfire detection accuracy, providing a scalable solution for monitoring fire-prone areas in near real-time.</p>
+            <h5>Time-Series Data</h5>
+            <p>The California Department of Forestry and Fire Protection (Cal Fire) is the primary fire protection agency under the California Natural Resources Agency. It is responsible for safeguarding 31 million acres of state-designated wildfire-prone land, as well as managing both public and private forests.</p>
+            <p>The dataset used contained over 22000 data points ranging from 1980s to 2023 for training and testing.</p>
+
+
+
+          </div>
+        </div>
+
+
+
+        <div class="col-md-8 col-md-offset-2 section-container-spacer">
+          <div class="row">
+            <div class="col-xs-12 col-md-6">
+
+
+
+            </div>
+          </div>
+
+          <div class="col-xs-12">
+            <h4>Click <a
+                href="https://github.com/bakasheddy/E-coms-Product-Recommender.git">here</a>
+              to check the full project on
+              GitHub.</h4>
+
+
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+
+    <footer class="footer-container text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <p>© 2023 | Shedrack David => PRODIGY
+
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function (event) {
+        navActivePage();
+      });
+    </script>
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID 
+
+<script>
+  (function (i, s, o, g, r, a, m) {
+    i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+      (i[r].q = i[r].q || []).push(arguments)
+    }, i[r].l = 1 * new Date(); a = s.createElement(o),
+      m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+  })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+  ga('create', 'UA-XXXXX-X', 'auto');
+  ga('send', 'pageview');
+</script>
+
+-->
+    <script type="text/javascript" src="../main.70a66962.js"></script>
+</body>
+
+</html>
