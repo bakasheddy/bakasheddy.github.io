@@ -81,7 +81,10 @@
             <blockquote>
               <p>System Layout</p>
             </blockquote>
-            <p>This project adopts a three-tiered architecture to address California’s wildfire challenges systematically: (1) Data Preprocessing, where FIRMS satellite imagery is standardized (512×512 for segmentation, 224×224 for classification) and CAL FIRE historical data is temporally aligned and zero-padded; (2) Model Development, integrating a MobileNetV2-based classifier (for fire/no-fire detection), a U-Net segmentation model (for pixel-level fire mapping), and a Prophet time-series forecaster (for fire count/acre prediction); and (3) Validation, where models are evaluated using spatially stratified splits (train: 1950–2015, test: 2016–2023) and real-world metrics (IoU, MAE, F1-score). The workflow emphasizes modularity, with preprocessing pipelines (multi-color space thresholding, morphological refinement) feeding into interconnected AI components, enabling end-to-end fire detection, boundary mapping, and risk forecasting tailored to California’s diverse ecosystems.</p>
+            <p>This project adopts a three-tiered architecture to address California’s wildfire challenges systematically: </p>
+              <li>Data Preprocessing, where FIRMS satellite imagery is standardized (512×512 for segmentation, 224×224 for classification) and CAL FIRE historical data is temporally aligned and zero-padded;</li>
+              <li>Model Development, integrating a MobileNetV2-based classifier (for fire/no-fire detection), a U-Net segmentation model (for pixel-level fire mapping), and a Prophet time-series forecaster (for fire count/acre prediction);</li>
+              <li>Validation, where models are evaluated using spatially stratified splits (train: 1950–2015, test: 2016–2023) and real-world metrics (IoU, MAE, F1-score). The workflow emphasizes modularity, with preprocessing pipelines (multi-color space thresholding, morphological refinement) feeding into interconnected AI components, enabling end-to-end fire detection, boundary mapping, and risk forecasting tailored to California’s diverse ecosystems.</li>
              <p></p> 
             <img src="../assets/images/wf (1).png" class="img-responsive" alt="">
             <h3>About Data</h3>
